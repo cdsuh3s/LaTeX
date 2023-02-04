@@ -1,1 +1,1 @@
-# ex_LaTeX
+# LaTeX Exercise
