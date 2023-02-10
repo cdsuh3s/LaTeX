@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+
+% To include graphics from outside LaTeX, use
+%   - the graphicx package, and
+%   - the command \includegraphics.
+\usepackage{graphicx}
+
+\begin{document}
+
+\section{Including Graphics}
+
+A picture can be imported using the \verb|graphicx| package
+and the \verb|\includegraphics| command.
+
+% Using center environment,
+% an image can be put at the horizontal center on the page.
+\begin{center}
+  \includegraphics[height=5cm]{Ghostscript_Tiger-512px}
+  % EPS, PNG, JPG, and PDF files can be braught in.
+  % If the file extension is not given, the graphicx package will try to guess it.
+  % If  more than a version of graphic exist, provide the extension you want.
+\end{center}
+
+\section{Altering Graphic Appearance}
+
+\begin{center}
+  \includegraphics[width = 10cm]{Ghostscript_Tiger-512px}
+\end{center}
+
+\begin{center}
+  \includegraphics[width = 0.2\textwidth]{Ghostscript_Tiger-512px}
+\end{center}
+
+\begin{center}
+  \includegraphics[height = 0.1\textheight]{Ghostscript_Tiger-512px}
+\end{center}
+
+\begin{center}
+  \includegraphics[scale = 0.3, angle = -45]{Ghostscript_Tiger-512px}
+\end{center}
+
+\begin{center}
+  \includegraphics[width = 5cm, angle = 45]{Ghostscript_Tiger-512px}
+\end{center}
+
+\end{document}
