@@ -1,0 +1,19 @@
+\documentclass{minimal}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{pstricks}
+
+\pagestyle{empty}
+
+\begin{document}
+
+This is a line.
+\psset{unit=2cm}
+\qline(0,0)(3,2)
+This is another sentence.
+
+\begin{pspicture}
+  \qline(0,0)(3,2)
+\end{pspicture}
+
+\end{document}
